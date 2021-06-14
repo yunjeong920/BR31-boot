@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>베스킨라빈스 부트스트랩사이트</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="부트스트랩사이트">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/component.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!--[if lt IE 9]>
+      <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- gnb -->
+          <nav class="navbar navbar-expand-lg ml-md-auto">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sub/month.html" role="button" aria-expanded="false">
+                      FLAVOR OF THE MONTH
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MENU
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./sub/menu1.html">아이스크림</a></li>
+                      <li><a class="dropdown-item" href="./sub/menu1.html">아이스크림케이크</a></li>
+                      <li><a class="dropdown-item" href="./sub/menu1.html">음료</a></li>
+                      <li><a class="dropdown-item" href="./sub/menu1.html">디저트</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      영양 성분 및 알레르기
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./sub/component1.html">아이스크림</a></li>
+                      <li><a class="dropdown-item" href="./sub/component2.html">음료</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ABOUT
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./sub/about1.html">공지사항</a></li>
+                      <li><a class="dropdown-item" href="./sub/about2.html">채용정보</a></li>
+                      <li><a class="dropdown-item" href="./sub/about3.html">점포개설문의</a></li>
+                      <li><a class="dropdown-item" href="./sub/about4.html">CONTACT US</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sub/login.html" role="button" aria-expanded="false">
+                      LOGIN
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <!-- jumbotron -->
+    <div class="title-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="p-5 mb-4 rounded-3">
+              <div class="container-fluid py-5">
+                <div class="main-text">
+                  <img src="./img/mainname.png" class="img-fluid" alt="">
+                </div>
+                <span class="side-left img-fluid"><img src="./img/side_img_01.png" alt=""></span>
+                <span class="side-left1 img-fluid"><img src="./img/side_img_02.png" alt=""></span>
+                <span class="side-right img-fluid"><img src="./img/side_img_03.png" alt=""></span>
+                <div class="main-img">
+                  <img src="./img/ice_img.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card section -->
+    <div class="container">
+      <div class="menu">
+        <div class="menu-txt">
+          <h3>BR NEW MENU<br>
+            <p><span class="rain1"><img src="./img/rainbow.png" alt=""></span>Over The Rainbow<span class="rain2"><img src="./img/rainbow-right.png" alt=""></span></p>
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col col-12 col-md-12 col-lg-6">
+            <div class="card type2">
+              <img src="./img/menu1.png" class="m_01" alt="m_01">
+              <div class="card-body card1">
+                <h6 class="card-title">오버 더 레인보우 샤베트</h6>
+                <p class="card-text fc2">파인애플 샤베트, 라즈베리 샤베트, 오렌지 샤베트에, 상큼한 레몬&라임 샤베트가 어우러진 제품</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-md-12 col-lg-6">
+            <div class="card type2">
+              <img src="./img/menu2.png" class="m_01" alt="m_01">
+              <div class="card-body card1">
+                <h6 class="card-title">오버 더 레인보우 케이크</h6>
+                <p class="card-text fc2">3가지 맛 구슬 아이스크림이 숨어 있는 케이크에 스마일 쿠키, 구름모양 머랭까지 더 한 매력만점 케이크</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-md-12 col-lg-6">
+            <div class="card type2">
+              <img src="./img/menu4.png" class="m_01" alt="m_01">
+              <div class="card-body card1">
+                <h6 class="card-title">오버 더 레인보우 블라스트</h6>
+                <p class="card-text fc2">시원한 레몬 라임, 히비스커스가 조화롭게 어울리는 상큼한 블라스트</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-md-12 col-lg-6">
+            <div class="card type2">
+              <img src="./img/menu3.png" class="m_01" alt="m_01">
+              <div class="card-body card1">
+                <h6 class="card-title">레인보우 스틱바</h6>
+                <p class="card-text fc2">상큼한 레인보우 샤베트를 듀얼 플레이버로 시원하게 즐기는 스틱바 세트 (오렌지&라즈베리 + 파인애플&레몬라임)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Baskin Robbins Delivery</h3>
+      <div class="row">
+        <div class="col col-12 col-md-6 col-lg-3">
+          <div class="card del">
+            <img src="./img/banner_delivery.png" class="m_01 img-fluid" alt="m_01">
+            <div class="card-body card1">
+              <h5 class="card-title"><img src="./img/stit_store.gif" alt=""></h5>
+              <p class="card-text">해피오더 딜리버리로 간편하게 주문하세요!</p>
+              <a href="#" class="btn btn-primary">주문하기</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-6 col-lg-3">
+          <div class="card del">
+            <img src="./img/banner_delivery_bm.png" class="m_01 img-fluid" alt="m_01">
+            <div class="card-body card1">
+              <h5 class="card-title"><img src="./img/stit_store.gif" alt=""></h5>
+              <p class="card-text">배달의 민족에서 빠르게 주문하세요!</p>
+              <a href="#" class="btn btn-primary">주문하기</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-6 col-lg-3">
+          <div class="card del">
+            <img src="./img/banner_delivery_kakao.png" class="m_01 img-fluid" alt="m_01">
+            <div class="card-body card1">
+              <h5 class="card-title"><img src="./img/stit_store.gif" alt=""></h5>
+              <p class="card-text">카카오톡 주문하기에서 편리하게 주문하세요!</p>
+              <a href="#" class="btn btn-primary">주문하기</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-6 col-lg-3">
+          <div class="card del">
+            <img src="./img/banner_delivery_ygy.png" class="m_01 img-fluid" alt="m_01">
+            <div class="card-body card1">
+              <h5 class="card-title"><img src="./img/stit_store.gif" alt=""></h5>
+              <p class="card-text">요기요에서 손쉽게 주문하세요!</p>
+              <a href="#" class="btn btn-primary">주문하기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jumbotron -->
+    <div class="sub-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <div class="container-fluid">
+                <h2 class="display-5 fw-bold">BR MENU</h2>
+                <div class="row event">
+                  <div class="col col-12 col-md-6 col-lg-3">
+                    <div class="card event-card">
+                      <img src="./img/sub/menu1/ice2.png" class="m_01" alt="m_01">
+                      <div class="card-body event1">
+                        <h6 class="card-title">ICE CREAM</h6>
+                        <p class="card-text fc2">아이스크림의 기준,<br>베스킨라빈스</p>
+                        <a href="./sub/menu1.html" class="btn btn-primary">보러가기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-md-6 col-lg-3">
+                    <div class="card event-card">
+                      <img src="./img/sub/menu2/cake5.png" class="m_01" alt="m_01">
+                      <div class="card-body event1">
+                        <h6 class="card-title">ICECREAM CAKE</h6>
+                        <p class="card-text fc2">아이와 어른이 좋아하는<br>아이스크림을 하나의 케이크에서<br>모두 즐기세요!</p>
+                        <a href="./sub/menu2.html" class="btn btn-primary">보러가기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-md-6 col-lg-3">
+                    <div class="card event-card">
+                      <img src="./img/sub/menu3/be10.png" class="m_01" alt="m_01">
+                      <div class="card-body event1">
+                        <h6 class="card-title">BEVERAGE</h6>
+                        <p class="card-text">아이스크림으로 즐기는<br>베스킨라빈스만의 음료!</p>
+                        <a href="./sub/menu3.html" class="btn btn-primary">보러가기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-md-6 col-lg-3">
+                    <div class="card event-card">
+                      <img src="./img/sub/menu4/de7.png" class="m_01" alt="m_01">
+                      <div class="card-body event1">
+                        <h6 class="card-title">DESSERT</h6>
+                        <p class="card-text fc2">아이스크림을 더욱 재미있게!<br>간편하게 즐기는 방법</p>
+                        <a href="./sub/menu4.html" class="btn btn-primary">보러가기</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card section -->
+    <div class="container">
+      <div class="row">
+        <div class="col col-xs-6 col-md-6 col-lg-6">
+          <h4 class="store">BR STORE</h4>
+          <div class="card">
+            <img src="./img/img_store.jpg" class="m_01" alt="m_01">
+          </div>
+        </div>
+        <div class="col col-xs-6 col-md-6 col-lg-6">
+          <h4 class="store">HAPPY ORDER & DELIVERY</h4>
+          <div class="card">
+            <img src="./img/img_happy.png" class="m_01" alt="m_01">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container sns">
+      <h4>SNS</h4>
+      <div class="row">
+        <div class="col-xs-1 sns-wrap">
+          <img src="./img/sns1.png" alt="">
+          <img src="./img/sns2.png" alt="">
+          <img src="./img/sns3.png" alt="">
+          <img src="./img/sns4.png" alt="">
+          <img src="./img/sns5.png" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="foot-logo">
+        <img src="./img/footer_logo.png" alt="">
+      </div>
+      <div class="row foot-info">
+        <span>사업자등록번호 : 303-81-09535</span>
+        <span>비알코리아(주) 대표이사 도세호</span>
+        <span>서울특별시 서초구 남부순환로 2620(양재동 11-149번지)</span>
+      </div>
+      <div class="row foot-info">
+        <span>TEL : 080-555-3131</span>
+        <span>개인정보관리책임자 : 김경우</span>
+      </div>
+      <div class="row flogo">
+        <div class="col-xs-1">
+          <img src="./img/btn1.png" alt="">
+          <img src="./img/btn2.png" alt="">
+          <img src="./img/btn3.png" alt="">
+          <img src="./img/btn4.gif" alt="">
+          <img src="./img/btn5.gif" alt="">
+          <img src="./img/btn6.png" alt="">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              FAMILY SITE
+            </button>
+            <ul class="dropdown-menu familydrop" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">배스킨 스쿨</a></li>
+              <li><a class="dropdown-item" href="#">SPC그룹 사이트</a></li>
+              <li><a class="dropdown-item" href="#">SPCMAGAZINE</a></li>
+              <li><a class="dropdown-item" href="#">BR코리아</a></li>
+              <li><a class="dropdown-item" href="#">해피포인트카드</a></li>
+              <li><a class="dropdown-item" href="#">파스쿠찌</a></li>
+              <li><a class="dropdown-item" href="#">삼림</a></li>
+              <li><a class="dropdown-item" href="#">파리바게트</a></li>
+              <li><a class="dropdown-item" href="#">던킨도너츠</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p class="copy">Copyright ⓒ 2021-06-13</p>
+      </div>
+    </div>
+  </footer>
+  <!-- jquery 라이브러리 -->
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/common.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>

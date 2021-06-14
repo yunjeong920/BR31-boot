@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.w-100{
+  margin: 50px auto;
+  background: rgba(0,0,0,.125);
+  height: 1px;
+}
+.row > .col{ margin-bottom: 25px; }
+.container > h3{
+  text-align: center;
+  line-height: 36px;
+  height: 36px;
+  font-size: 21px;
+  color:#333333;
+  margin-bottom: 30px;
+}
+
+#footer .col .inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
