@@ -182,8 +182,8 @@ a{
 }
 
 .btn-primary:hover{
-  background: #bf2a4a;
-  border-color: #bf2a4a;
+  background: #f4b4c2;
+  border-color: #f4b4c2;
 }
 
 .btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus{
@@ -774,4 +774,86 @@ td:nth-of-type(odd){
 
 .table>:not(caption)>*>*{
   padding: 10px;
+}
+
+.job{
+  border: 2px solid #ff7c98;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  padding: 50px 20px;
+  border-radius: 15px;
+}
+
+.job-box{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.job span{
+  font-size: 12px;
+  color: #d3c1ab;
+}
+
+.job h1{
+  font-size: 60px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.job p{
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.map{
+  margin-bottom: 50px;
+}
+
+.way{
+  text-align: left;
+}
+
+.way h6{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.way p{
+  margin-bottom: 6px;
+  font-style: 14px;
+  font-weight: 300;
+}
+
+.login-page{
+  height: 90vh;
+}
+
+.login-wrap{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form2{
+  margin: 0 auto;
+}
+
+.login-form{
+  text-align: left;
+}
+
+.login-form h2{
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.login-form label{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.save span{
+  margin-left: 10px;
 }

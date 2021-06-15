@@ -44,7 +44,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       MENU
                     </a>
-                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                       <li><a class="dropdown-item" href="./menu1.html">아이스크림</a></li>
                       <li><a class="dropdown-item" href="./menu2.html">아이스크림케이크</a></li>
                       <li><a class="dropdown-item" href="./menu3.html">음료</a></li>
@@ -59,7 +59,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       영양 성분 및 알레르기
                     </a>
-                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                       <li><a class="dropdown-item" href="./component1.html">아이스크림</a></li>
                       <li><a class="dropdown-item" href="./component2.html">음료</a></li>
                     </ul>
@@ -72,11 +72,10 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       ABOUT
                     </a>
-                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="./about1.html">공지사항</a></li>
-                      <li><a class="dropdown-item" href="./about2.html">채용정보</a></li>
-                      <li><a class="dropdown-item" href="./about3.html">점포개설문의</a></li>
-                      <li><a class="dropdown-item" href="./about4.html">CONTACT US</a></li>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="./about1.html">채용정보</a></li>
+                      <li><a class="dropdown-item" href="./about2.html">점포개설문의</a></li>
+                      <li><a class="dropdown-item" href="./about3.html">CONTACT US</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -97,48 +96,268 @@
     </div>
   </header>
   <main id="main">
-    <!-- jumbotron -->
-    <div class="flavor-wrap">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="p-5 mb-4 rounded-3">
-              <div class="container-fluid py-5">
-                <div class="main-text">
-                  <img src="../img/mainname.png" class="img-fluid" alt="">
-                </div>
-                <span class="side-left img-fluid"><img src="../img/side_img_01.png" alt=""></span>
-                <span class="side-left1 img-fluid"><img src="../img/side_img_02.png" alt=""></span>
-                <span class="side-right img-fluid"><img src="../img/side_img_03.png" alt=""></span>
-                <div class="main-img">
-                  <img src="../img/sub/ice_img2.png" class="img-fluid" alt="">
-                </div>
-              </div>
+    <div class="container compo">
+      <div class="row">
+        <div class="com-name">
+          <img src="../img/sub/icon_title_1.png" alt="">
+          <span class="menu-title">영양정보</span>
+          <img src="../img/sub/icon_title_2.png" alt="">
+          <p>베스킨라빈스 제품의 영양정보를 확인해보세요</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron comjumbo">
+        <div class="row sec1">
+          <div class="col col-12 col-md-12 col-lg-6 form">
+            <div class="form-group">
+              <h6>제품명</h6>
+              <input type="text" class="form-control" id="exampleInputName2" placeholder="제품명을 입력해주세요.">
+            </div>
+          </div>
+          <div class="col col-12 col-md-12 col-lg-6 dropdown comdrop">
+            <h6>영양성분</h6>
+            <button class="btn btn-secondary dropdown-toggle comdrop1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              전체
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">전체</a></li>
+              <li><a class="dropdown-item" href="#">열량</a></li>
+              <li><a class="dropdown-item" href="#">나트륨</a></li>
+              <li><a class="dropdown-item" href="#">당류</a></li>
+              <li><a class="dropdown-item" href="#">포화지방</a></li>
+              <li><a class="dropdown-item" href="#">단백질</a></li>
+              <li><a class="dropdown-item" href="#">카페인</a></li>
+            </ul>
+            <button class="btn btn-secondary dropdown-toggle comdrop1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              전체
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">전체</a></li>
+              <li><a class="dropdown-item" href="#">높은순</a></li>
+              <li><a class="dropdown-item" href="#">낮은순</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row sec3">
+          <div class="col col-12 col-md-12 col-lg-12 comdrop">
+            <h6>알레르기</h6>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">계란</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">대두</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox2">돼지고기</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">땅콩</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">밀</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">복숭아</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">우유</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">호두</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">쇠고기</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">오징어</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">없음</label>
             </div>
           </div>
         </div>
-      </div>
-      <div class="banner2">
-        <img src="../img/sub/flavor_img_3.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="banner3">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h4>이달의 맛</h4>
-              <p><span>오버 더 레인보우 샤베트</span>선택시</p>
-              <p>500원 추가하면 싱글레귤러를</p>
-              <p>더블주니어로 더블 업!</p><br>
-              <span>6.1~6.30 까지</span>
+        <div class="row sec4">
+          <div class="col col-12 col-md-12 col-lg-12 com-txt">
+            <h6>&nbsp;</h6>
+            <div class="com-text1">
+              <span>※ 모든 제품은 밀, 대두, 호두, 우유, 땅콩, 돼지고기, 복숭아, 계란, 쇠고기를 사용한 제품과 같은 제조 시설에서 제조되었습니다.</span>
+              <span>※ 어린이, 임산부 및 카페인에 민감한 사람은 섭취에 주의해 주시기 바랍니다. (고카페인 함유)</span>
+              <span>※ 카페인 함량 "-"은 해당없음을 의미합니다.</span>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-12 col-md-12 col-lg-12">
+            <button type="button" class="btn btn-primary pink">검색</button>
           </div>
         </div>
       </div>
     </div>
-    <!-- card section -->
-    <!-- jumbotron -->
 
-    <!-- card section -->
+    <div class="container">
+      <p class="com2">SEARCH RESULT</p>
+      <p class="com3">검색결과 총 <span>21</span>건 검색되었습니다.</p>
+      <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>제품명</th>
+            <th>1회 제공량(g)</th>
+            <th>열량(kcal)</th>
+            <th>나트륨(mg)</th>
+            <th>당류(g)</th>
+            <th>포화지방(g)</th>
+            <th>단백질(g)</th>
+            <th>카페인(mg)</th>
+            <th>알레르기 성분</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">딸기 연유 라떼</th>
+            <td>480</td>
+            <td>415</td>
+            <td>113</td>
+            <td>71</td>
+            <td>7</td>
+            <td>7</td>
+            <td>-</td>
+            <td>우유</td>
+          </tr>
+          <tr>
+            <th scope="row">레몬라임 블라스트</th>
+            <td>465</td>
+            <td>235</td>
+            <td>0</td>
+            <td>58</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-</td>
+            <td>없음</td>
+          </tr>
+          <tr>
+            <th scope="row">민트초코봉봉 블라스트</th>
+            <td>441</td>
+            <td>640</td>
+            <td>335</td>
+            <td>51</td>
+            <td>26</td>
+            <td>10</td>
+            <td>-</td>
+            <td>우유, 대두, 밀</td>
+          </tr>
+          <tr>
+            <th scope="row">밀크 쉐이크</th>
+            <td>300</td>
+            <td>480</td>
+            <td>178</td>
+            <td>40</td>
+            <td>16</td>
+            <td>9</td>
+            <td>-</td>
+            <td>우유</td>
+          </tr>
+          <tr>
+            <th scope="row">복숭아 아이스티</th>
+            <td>460</td>
+            <td>125</td>
+            <td>0</td>
+            <td>31</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-</td>
+            <td>복숭아</td>
+          </tr>
+          <tr>
+            <th scope="row">샤인머스캣 블라스트</th>
+            <td>435</td>
+            <td>255</td>
+            <td>1</td>
+            <td>59</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-</td>
+            <td>없음</td>
+          </tr>
+          <tr>
+            <th scope="row">설향 딸기 블라스트</th>
+            <td>465</td>
+            <td>250</td>
+            <td>16</td>
+            <td>58</td>
+            <td>0</td>
+            <td>1</td>
+            <td>-</td>
+            <td>없음</td>
+          </tr>
+          <tr>
+            <th scope="row">스위스미스 핫 초코</th>
+            <td>245</td>
+            <td>285</td>
+            <td>230</td>
+            <td>29</td>
+            <td>8</td>
+            <td>8</td>
+            <td>4</td>
+            <td>우유</td>
+          </tr>
+          <tr>
+            <th scope="row">아몬드 봉봉 블라스트</th>
+            <td>371</td>
+            <td>590</td>
+            <td>375</td>
+            <td>59</td>
+            <td>11</td>
+            <td>11</td>
+            <td>-</td>
+            <td>우유, 대두</td>
+          </tr>
+          <tr>
+            <th scope="row">오버 더 레인보우 샤베트</th>
+            <td>115</td>
+            <td>199</td>
+            <td>24</td>
+            <td>27</td>
+            <td>2.7</td>
+            <td>2</td>
+            <td>-</td>
+            <td>우유</td>
+          </tr>
+        </tbody>
+      </table>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only"></span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </div>
 
 
   </main>

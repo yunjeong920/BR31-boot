@@ -73,10 +73,9 @@
                       ABOUT
                     </a>
                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="./about1.html">공지사항</a></li>
-                      <li><a class="dropdown-item" href="./about2.html">채용정보</a></li>
-                      <li><a class="dropdown-item" href="./about3.html">점포개설문의</a></li>
-                      <li><a class="dropdown-item" href="./about4.html">CONTACT US</a></li>
+                      <li><a class="dropdown-item" href="./about1.html">채용정보</a></li>
+                      <li><a class="dropdown-item" href="./about2.html">점포개설문의</a></li>
+                      <li><a class="dropdown-item" href="./about3.html">CONTACT US</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -96,51 +95,40 @@
       </div>
     </div>
   </header>
-  <main id="main">
-    <!-- jumbotron -->
-    <div class="flavor-wrap">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="p-5 mb-4 rounded-3">
-              <div class="container-fluid py-5">
-                <div class="main-text">
-                  <img src="../img/mainname.png" class="img-fluid" alt="">
-                </div>
-                <span class="side-left img-fluid"><img src="../img/side_img_01.png" alt=""></span>
-                <span class="side-left1 img-fluid"><img src="../img/side_img_02.png" alt=""></span>
-                <span class="side-right img-fluid"><img src="../img/side_img_03.png" alt=""></span>
-                <div class="main-img">
-                  <img src="../img/sub/ice_img2.png" class="img-fluid" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
+  <main id="main" class="login-page">
+    <div class="container login-wrap">
+
+      <form class="form-signin login-form">
+        <h2 class="form-signin-heading">로그인</h2>
+        <label for="inputEmail" class="sr-only">아이디</label>
+        <input type="email" id="inputEmail" class="form-control form2" placeholder="Id" required="" autofocus="">
+        <label for="inputPassword" class="sr-only">비밀번호</label>
+        <input type="password" id="inputPassword" class="form-control form2" placeholder="Password" required="">
+        <div class="checkbox">
+          <label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" class="save"><span>저장하기</span>
+          </label>
         </div>
-      </div>
-      <div class="banner2">
-        <img src="../img/sub/flavor_img_3.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="banner3">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h4>이달의 맛</h4>
-              <p><span>오버 더 레인보우 샤베트</span>선택시</p>
-              <p>500원 추가하면 싱글레귤러를</p>
-              <p>더블주니어로 더블 업!</p><br>
-              <span>6.1~6.30 까지</span>
-            </div>
-          </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">로그인</button>
+      </form>
+
+      <form class="form-signin login-form">
+        <h2 class="form-signin-heading">간편 회원가입</h2>
+        <label for="inputEmail" class="sr-only">아이디</label>
+        <input type="email" id="inputEmail" class="form-control form2" placeholder="Id" required="" autofocus="">
+        <label for="inputPassword" class="sr-only">비밀번호</label>
+        <input type="password" id="inputPassword" class="form-control form2" placeholder="Password" required="">
+        <label for="inputPassword" class="sr-only">휴대폰 번호</label>
+        <input type="tel" id="inputPassword" class="form-control form2" placeholder="Tel" required="">
+        <div class="checkbox">
+          <label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" class="save"><span>확인하기</span>
+          </label>
         </div>
-      </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">가입하기</button>
+      </form>
+
     </div>
-    <!-- card section -->
-    <!-- jumbotron -->
-
-    <!-- card section -->
-
-
   </main>
   <footer id="footer">
     <div class="container">
