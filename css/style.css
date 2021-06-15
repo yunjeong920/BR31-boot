@@ -152,7 +152,7 @@ a{
 
 .container h3{
   font-weight: bold;
-  margin-top: 80px;
+  margin-top: 120px;
   margin-bottom: 50px;
   font-size: 26px;
 }
@@ -160,6 +160,7 @@ a{
 .del{
   border-radius: 10px;
   overflow: hidden;
+  border: 1px solid #fbc8d3;
 }
 
 .del p{
@@ -185,8 +186,19 @@ a{
   border-color: #bf2a4a;
 }
 
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle{
+  background: #ff7c98;
+  border-color: #ff7c98;
+}
+
 .btn-primary:focus{
   box-shadow: none;
+  background: #ff7c98;
+  border-color: #ff7c98;
 }
 
 
@@ -491,6 +503,10 @@ a{
   font-size: 22px;
 }
 
+.menu-row{
+  padding: 20px;
+}
+
 .menu-name{
   margin-top: 100px;
   margin-bottom: 80px;
@@ -507,14 +523,24 @@ a{
   text-align: center;
 }
 
-.menu .card-text h4{
-  font-size: 20px;
+.menu .menu-col{
+  margin-bottom: 10;
+  padding: 5;
+}
+
+.menu .menu-box{
+  position: relative;
+  border: 1px solid #ebebeb;
+}
+
+.menu-box h4{
+  font-size: 18px;
   font-weight: bold;
   color: #333;
   margin-top: 15px;
 }
 
-.menu .card-text p{
+.menu-box .card-text p{
   margin-bottom: 8px;
   color: #9d9d9d;
   font-size: 14px;
@@ -523,6 +549,11 @@ a{
 .menu .card-text p>span{
   margin-left: 5px;
   cursor: pointer;
+}
+
+.rank{
+  position: absolute;
+  left: 10px;
 }
 
 .btn-warning{
@@ -542,10 +573,11 @@ a{
 }
 
 .card-img, .card-img-bottom, .card-img-top{
-  width: 85%;
+  width: 70%;
 }
 
 .pagination{
+  margin-top: 100px;
   justify-content: center;
   margin-bottom: 100px;
 }
@@ -571,4 +603,175 @@ a{
 
 .page-item:last-child .page-link, .page-item:first-child .page-link{
   border-radius: 100%;
+}
+
+.com-name{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.com-name span{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  color: #222;
+  font-weight: bold;
+}
+
+.com-name img{
+  margin-bottom: 5px;
+}
+
+.com-name p{
+  color: #666;
+  margin-top: 20px;
+}
+
+.comjumbo{
+  border: 1px solid #ff7c98;
+  border-radius: 15px;
+  padding: 20px 100px 20px 100px;
+}
+
+.comjumbo h6{
+  color: #333;
+  width: 150px;
+  font-weight: bold;
+}
+
+.form-group{
+  display: flex;
+  align-items: flex-end;
+}
+
+.comdrop{
+  display: flex;
+  align-items: flex-end;
+}
+
+.form-control{
+  color: #ced4da;
+  font-size: 14px;
+  width: 300px;
+}
+
+.comdrop1{
+  background-color: #fff;
+  border-color: #ced4da;
+  color: #888;
+  margin-left: 10px;
+  width: 160px;
+  text-align: left;
+}
+
+.comdrop1:hover{
+  background: #fff;
+  border-color: rgba(255,124,152,0.5);
+  color: #888;
+}
+
+.btn-check:active+.btn-secondary:focus, .btn-check:checked+.btn-secondary:focus, .btn-secondary.active:focus, .btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+.comdrop1:focus{
+  color: #888;
+  background: #fff;
+  border-color: rgba(255,124,152,0.5);
+  box-shadow: 0 0 0 0.2px rgba(255,124,152,0.5);
+}
+
+.comdrop1::after{
+  margin-left: 85px;
+}
+
+.form-control:focus{
+  border-color: rgba(255,124,152,0.5);
+  box-shadow: 0 0 0 0.2px rgba(255,124,152,0.5);
+}
+
+.form-check-input:focus{
+  box-shadow: none;
+  border-color: #ccc;
+}
+
+.form-check-input:checked{
+  border-color: rgba(255,124,152,0.5);
+  background-color: rgba(255,124,152,0.5);
+}
+
+.form-check-label{
+  color: #888;
+  font-size: 14px;
+}
+
+.form-check .form-check-input{
+  margin-top: 7px;
+}
+
+.sec1{
+  margin-top: 20px;
+}
+
+.sec3{
+  height: 30px;
+  line-height: 30px;
+}
+
+.sec4{
+  margin-top: 25px;
+}
+
+.com-txt{
+  display: flex;
+}
+
+.com-text1{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  color: #888;
+  font-size: 14px;
+}
+
+.pink{
+  margin-top: 20px;
+  padding: 10px 50px;
+  border-radius: 30px;
+}
+
+.com2{
+  font-size: 22px;
+  color: #b3b2b2;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-bottom: 5px;
+}
+
+.com3{
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.com3 span{
+  color: #ff7c98;
+}
+
+.table{
+  font-size: 12px;
+  font-weight: 300;
+  color: #666;
+}
+
+thead{
+  border-top: 1px solid #212529;
+  color: #333;
+}
+
+td:nth-of-type(odd){
+  background-color: rgba(255,124,152,0.1);
+}
+
+.table>:not(caption)>*>*{
+  padding: 10px;
 }
