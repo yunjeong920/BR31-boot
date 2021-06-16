@@ -16,6 +16,11 @@ a{
   text-decoration: none;
 }
 
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+  padding: 0;
+  overflow: hidden;
+}
+
 #header{
   border-top: 3px solid #ff7c98;
   background: url('../img/bg_header.gif');
@@ -35,7 +40,7 @@ a{
 }
 
 .dropdown-menu{
-  border-color: #ff7c98;
+  border-color: #fbc8d3;
 }
 
 .dropdown-item{
@@ -46,8 +51,8 @@ a{
 }
 
 .dropdown-item:focus, .dropdown-item:hover{
-  background-color: #fbc8d3;
-  color: #fff;
+  background-color: #fff3f6;
+  color: #666;
   font-weight: bold;
 }
 
@@ -161,7 +166,7 @@ a{
 .del{
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid #fbc8d3;
+  border: 1px solid #ddd;
 }
 
 .del p{
@@ -624,10 +629,29 @@ a{
   padding: 20px 100px 20px 100px;
 }
 
+@media screen and ( max-width: 1400px ) {
+  .tb-wrap{
+    overflow: auto;
+  }
+  .table{
+    white-space: nowrap;
+    width: 1400px;
+    overflow-x: scroll;
+  }
+}
+@media screen and ( max-width: 980px ) {
+  .comjumbo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .comjumbo h6{
   color: #333;
   width: 150px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .form-group{
@@ -705,8 +729,8 @@ a{
 }
 
 .sec3{
-  height: 30px;
   line-height: 30px;
+  display: flex;
 }
 
 .sec4{
@@ -721,8 +745,8 @@ a{
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  color: #888;
-  font-size: 14px;
+  color: #9a9a9a;
+  font-size: 12px;
 }
 
 .pink{
