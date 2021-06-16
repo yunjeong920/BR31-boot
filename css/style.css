@@ -36,22 +36,23 @@ a{
   color: #4a4a4a;
 }
 .nav-link:focus, .nav-link:hover{
-  color: #ff7c98;
+  color: #beab9f;
 }
 
 .dropdown-menu{
-  border-color: #fbc8d3;
+  border: 1.5px solid #beab9f;
+  background: rgba(190, 171, 159, 0.5);
 }
 
 .dropdown-item{
-  color: #777;
+  color: #fff;
   font-size: 14px;
   padding: 10px;
   font-weight: bold;
 }
 
 .dropdown-item:focus, .dropdown-item:hover{
-  background-color: #fff3f6;
+  background-color: #fff;
   color: #666;
   font-weight: bold;
 }
@@ -101,6 +102,36 @@ a{
   top: 60%;
   right: 15%;
   animation: side3 4s infinite;
+}
+
+@media screen and ( max-width: 1300px ) {
+  .side-left img{
+    max-width: 150px;
+    width: 100%;
+  }
+  .side-left1 img{
+    max-width: 80px;
+    width: 100%;
+  }
+  .side-right img{
+    max-width: 120px;
+    width: 100%;
+  }
+}
+
+@media screen and ( max-width: 1000px ) {
+  .side-left img{
+    max-width: 100px;
+    width: 100%;
+  }
+  .side-left1 img{
+    max-width: 40px;
+    width: 100%;
+  }
+  .side-right img{
+    max-width: 80px;
+    width: 100%;
+  }
 }
 
 @keyframes side1 {
@@ -649,7 +680,7 @@ a{
 
 .comjumbo h6{
   color: #333;
-  width: 150px;
+  min-width: 150px;
   font-weight: bold;
   white-space: nowrap;
 }
@@ -726,6 +757,44 @@ a{
 
 .sec1{
   margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media screen and ( max-width: 1400px ) {
+  .comjumbo{
+    padding: 20px 50px 20px 50px;
+  }
+}
+
+@media screen and ( max-width: 1200px ) {
+  .sec1{
+    flex-direction: column;
+  }
+  .comdrop{
+    margin-top: 20px;
+  }
+  .comjumbo h6{
+    min-width: 100px;
+  }
+}
+
+@media screen and ( max-width: 1000px ) {
+  .mobile{
+    display: none;
+  }
+  .comjumbo{
+    padding: 20px;
+  }
+  .sec1{
+    flex-direction: column;
+  }
+  .comdrop{
+    margin-top: 20px;
+  }
+  .comjumbo h6{
+    min-width: 80px;
+  }
 }
 
 .sec3{
