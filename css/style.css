@@ -12,6 +12,8 @@ body {
 }
 a{
   color: #4a4a4a;
+  list-style: none;
+  text-decoration: none;
 }
 
 #header{
@@ -817,19 +819,15 @@ td:nth-of-type(odd){
   height: 90vh;
 }
 
-.login-wrap{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .form2{
   margin: 0 auto;
 }
 
 .login-form{
-  text-align: left;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .login-form h2{
@@ -845,4 +843,16 @@ td:nth-of-type(odd){
 
 .save span{
   margin-left: 10px;
+}
+
+.가입{
+  margin-bottom: 50px;
+}
+
+.link{
+  color: #fff;
+}
+
+.link:hover{
+  color: #fff;
 }

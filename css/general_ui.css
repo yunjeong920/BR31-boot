@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/*genenal UI start*/
+input{
+  padding: 10px 10px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/*input size type*/
+input.big{
+  width: 478px;
+}
+
+input.middle{
+  width: 270px;
+}
+
+input.small{
+  width: 150px;
+}
+
+input.tiny{
+  width: 100px;
+}
+
+/*input common*/
+input:focus{
+  outline: none;
+  border: 1px solid #9d9d9d;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+input[type=checkbox] + label{
+  position: relative;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #999;
+  margin: 5px 0 0 12px;/*layout 요소*/
+}
+
+input[type=checkbox]:checked + label:after{
+  content:'';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  border: solid #000;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/*button common*/
+/*button initialize start*/
+button{
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  box-sizing: border-box;
+}
+button:focus{
+  outline: none;
+}
+/*button initialize end*/
+button.gbtn{
+  padding: 10px 15px;
+}
+/*button type*/
+/*배경색 있는 버튼*/
+button.gbtn.normal{
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 15px;
+  min-width: 110px;
+  background-color: #333;
+}
+/*배경이 투명한 버튼*/
+button.gbtn.transparent{
+  border: 1px solid #999;
+  /* background: transparent; 우선 순위가 낮을때 추가*/
+}
+button.gbtn.transparent:focus{
+  border: 1px solid #333;
+}
+
+/*button color type*/
+button.gbtn.normal.gray{
+  background-color: #818286;
+}
+
+/*table style start*/
+.table_a{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.table_a td{
+  position: relative;
+  border: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  padding: 13px 8px 13px;
+  font-size: 14px;
+}
+
+.table_a td > *{ float: left; }
+
+.table_a tr td:nth-child(1){
+  width: 120px;
+  text-align: left;
+  padding-left: 20px;
+  color: #333;
+}
+
+.table_a tr td em{
+  position: absolute;
+  display: inline-block;
+  font-size: 8px;
+  color: #f85858;
+  left: 0;
+}
+
+.table_a tr td > i{
+  margin: 5px 5px 0;
+}
+
+.txt{
+  display: inline-block;
+  font-size: 14px;
+  color: #999;
+  margin: 7px 0 0 5px;
+}
+
+/*table style end*/
+/*genenal UI end*/

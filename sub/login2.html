@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
   <meta charset="UTF-8">
-  <title>베스킨라빈스 부트스트랩사이트</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="부트스트랩사이트">
+  <title>가입양식폼</title>
+  <meta name="description" content="가입양식폼">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/general_ui.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/layout.css">
-  <link rel="stylesheet" href="../css/component.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+  <link rel="stylesheet" href="../css/form.css">
   <link rel="stylesheet" href="../css/style.css">
+  <script type="text/javascript" src="../js/jquery_3.5.1.js"></script>
+  <script type="text/javascript" src="../js/form.js"></script>
   <!--[if lt IE 9]>
-      <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
-
 <body>
   <header id="header">
     <div class="container">
@@ -95,46 +94,103 @@
       </div>
     </div>
   </header>
-  <main id="main job-main">
-    <div class="container compo">
-      <div class="row">
-        <div class="com-name">
-          <img src="../img/sub/icon_title_1.png" alt="">
-          <span class="menu-title">채용정보</span>
-          <img src="../img/sub/icon_title_2.png" alt="">
-          <p>당신의 소중한꿈, 배스킨라빈스와 함께</p>
-        </div>
-      </div>
+  <div id="wrap" class="가입page">
+    <div class="title">
+      <h1>회원가입</h1>
+      <p class="prec"><em>*</em>표시는 필수 입력사항입니다.</p>
     </div>
-
-    <div class="container">
-      <div class="row job-box" style="justify-content: space-around;">
-        <div class="col col-10 col-md-8 col-lg-4 job">
-          <span>BASKINROBBINS</span>
-          <h1>아르바이트</h1>
-          <img src="../img/sub/jobs_img_1.jpg" alt="">
-          <p>즐거운 일터에서 함께 일하며 경험을 쌓고,<br>
-            다양한 혜택이 함께하는 최고의 기회를 누려보세요!<br>
-            가맹점 아르바이트는<br>
-          아르바이트 포털 사이트에서 모집하고 있습니다.</p>
-          <button type="button" class="btn btn-primary pink"><a href="#" class="link">자세히보기</a></button>
-        </div>
-        <div class="col col-10 col-md-8 col-lg-4 job">
-          <span>BASKINROBBINS</span>
-          <h1>사무직</h1>
-          <img src="../img/sub/jobs_img_2.jpg" alt="">
-          <p>끊임없는 혁신으로 성공을 창조해온 배스킨라빈스!<br>
-          이곳에서 당신의 소중한 꿈을 펼쳐보세요!<br>
-            배스킨라빈스 사무직은<br>
-          비알코리아 사이트를 통해 모집하고 있습니다.</p>
-          <button type="button" class="btn btn-primary pink"><a href="#" class="link">자세히보기</a></button>
-        </div>
+    <form>
+      <table class="table_a">
+        <tr>
+          <td>
+            <em>*</em>사용자 아이디
+          </td>
+          <td>
+            <input type="text" class="middle name" name="" value="">
+            <button class="gbtn transparent">중복확인</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>비밀번호
+          </td>
+          <td>
+            <input type="text" class="middle password">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>한글성명
+          </td>
+          <td>
+            <input type="text" class="middle">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>영문성명
+          </td>
+          <td>
+            <input type="text" class="middle">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>주소
+          </td>
+          <td>
+            <input type="text" class="big">
+            <button class="gbtn transparent">검색</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            상세주소
+          </td>
+          <td>
+            <input type="text" class="big address">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>이메일
+          </td>
+          <td>
+            <input type="text"><i>@</i><input type="text" class="inemail">
+            <select class="select" name="email">
+              <option value="naver.com">naver.com</option>
+              <option value="daum.net">daum.net</option>
+              <option value="google.com">google.com</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>전화번호
+          </td>
+          <td>
+            <input type="text" class="tiny"><i>-</i><input type="text" class="tiny"><i>-</i><input type="text" class="tiny">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>휴대폰 번호
+          </td>
+          <td>
+            <input type="text" class="tiny"><i>-</i><input type="text" class="tiny"><i>-</i><input type="text" class="tiny">
+            <button class="gbtn transparent">본인확인</button>
+            <input type="checkbox" id="ck" name="ck"/>
+            <label for="ck"></label>
+            <div class="txt">확인 완료 여부</div>
+          </td>
+        </tr>
+      </table>
+      <div class="button_group">
+        <button class="gbtn normal gray">취소</button>
+        <button class="gbtn normal">회원가입</button>
       </div>
-    </div>
-
-
-
-  </main>
+    </form>
+  </div>
   <footer id="footer">
     <div class="container">
       <div class="foot-logo">
@@ -180,10 +236,8 @@
       </div>
     </div>
   </footer>
-  <!-- jquery 라이브러리 -->
   <script type="text/javascript" src="../js/jquery.min.js"></script>
   <script type="text/javascript" src="../js/common.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
-
 </html>
