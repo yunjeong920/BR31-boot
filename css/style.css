@@ -393,7 +393,6 @@ a{
 }
 
 .banner2 h2{
-  font-size: 50px;
   font-weight: bold;
   color: #fff;
   margin-bottom: 100px;
@@ -416,6 +415,7 @@ a{
   position: relative;
   width: 300px;
   height: 300px;
+  margin: 0 auto;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 100%;
   display: flex;
@@ -433,14 +433,12 @@ a{
   color: #fff;
   font-weight: bold;
   margin-bottom: 8px;
-  font-size: 18px;
 }
 
 .new-text span{
   position: relative;
   display: block;
   color: #e84b52;
-  font-size: 24px;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -459,7 +457,6 @@ a{
 
 .new-text strong{
   color: #e84b52;
-  font-size: 24px;
   font-weight: bold;
 }
 
@@ -483,19 +480,16 @@ a{
 
 .banner3 h4{
   margin-top: 80px;
-  font-size: 26px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
 .banner3 p{
   margin-bottom: 10px;
-  font-size: 24px;
 }
 
 .banner3 span{
   color: #fee101;
-  font-size: 22px;
 }
 
 .menu-row{
