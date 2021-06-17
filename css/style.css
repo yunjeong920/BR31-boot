@@ -1059,6 +1059,7 @@ td:nth-of-type(odd){
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .tab3-text{
@@ -1069,4 +1070,50 @@ td:nth-of-type(odd){
 
 .tab3-text span{
   margin-right: 15px;
+}
+
+@media screen and ( max-width: 1000px ) {
+  .tab-inner3{
+    flex-direction: column;
+    margin-top: 100px;
+  }
+}
+
+@media screen and ( max-width: 900px ) {
+  .mobile2{
+    display: none;
+  }
+  .tab-box{
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .tab1-text{
+    margin-bottom: 50px;
+  }
+  .inner-box{
+    border: 1px solid #ff7c98;
+    border-radius: 15px;
+    margin: 30px;
+  }
+}
+
+@media screen and ( max-width: 767px ) {
+  .mobile3{
+    display: none;
+  }
+  .tab .tabs{
+    width: 400px;
+  }
+  .tab-link{
+    max-width: 130px;
+  }
+  .tab .tabs li{
+    min-width: 130px;
+  }
+}
+
+@media screen and ( max-width: 580px ) {
+  .tab{
+    width: auto;
+  }
 }
