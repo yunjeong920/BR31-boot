@@ -1004,8 +1004,8 @@ td:nth-of-type(odd){
 
 .tab .tabs li {
   background: none;
-  color: #888;
-  width: 300px;
+  color: #ff7c98;
+  min-width: 200px;
   text-align: center;
   cursor: pointer;
 }
@@ -1015,7 +1015,8 @@ td:nth-of-type(odd){
 }
 
 .tab .tabs li.current {
-  color: #ff7c98;
+  color: #fff;
+  background: #ff7c98;
 }
 
 .tab .tab-content {
@@ -1035,18 +1036,18 @@ td:nth-of-type(odd){
   min-width: 300px;
 }
 
-.abot-icon1{
-  display: block;
-  background: #ff7c98;
-  width: 160px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 50px;
-}
-
 .tab1-name{
   margin-top: 50px;
   color: #beab9f;
+}
+
+.tab-link{
+  max-width: 150px;
+  height: 50px;
+  line-height: 50px;
+  border: 1.5px solid #ff7c98;
+  border-radius: 50px;
+  margin: 10px;
 }
 
 .tab1-text{
@@ -1064,4 +1065,8 @@ td:nth-of-type(odd){
   text-align: left;
   margin-top: 20px;
   margin-left: 50px;
+}
+
+.tab3-text span{
+  margin-right: 15px;
 }
