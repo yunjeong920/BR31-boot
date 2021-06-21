@@ -716,6 +716,18 @@ a{
   align-items: flex-end;
 }
 
+@media screen and ( max-width: 490px ) {
+  .comdrop{
+    align-items: baseline;
+  }
+  .btn-wrap{
+    text-align: left;
+  }
+  .comdrop1:nth-child(1){
+    margin-bottom: 15px;
+  }
+}
+
 .form-control{
   color: #ced4da;
   font-size: 14px;
