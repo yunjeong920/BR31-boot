@@ -41,7 +41,7 @@ a{
 
 .dropdown-menu{
   border: 1.5px solid #beab9f;
-  background: rgba(190, 171, 159, 0.5);
+  background: rgba(190, 171, 159, 0.8);
 }
 
 .dropdown-item{
@@ -941,8 +941,11 @@ td:nth-of-type(odd){
   font-weight: 300;
 }
 
+@media screen and ( max-width: 993px ) {
+}
+
 .login-page{
-  height: 90vh;
+  height: auto;
 }
 
 .form2{
@@ -972,6 +975,7 @@ td:nth-of-type(odd){
 }
 
 .가입{
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 
